@@ -1018,7 +1018,7 @@ section,
 # About Section
 --------------------------------------------------------------*/
 .about {
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .about .content .who-we-are {

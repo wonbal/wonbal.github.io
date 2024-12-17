@@ -22,6 +22,17 @@
 
   <!-- Main CSS File -->
   <link href="/assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .hero .hero-bg::before {
+      background-color: rgba(0,0,0,.7);
+    }
+
+    .index-page .header {
+      background-color: white;
+    }
+  </style>
+
 </head>
 
 <body class="index-page">
@@ -44,7 +55,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="/"><i class="bi bi-globe2"></i> 简体中文</a>
+      <a class="btn-getstarted" href="/"><i class="bi bi-globe2"></i> ZH-CN</a>
 
     </div>
   </header>
@@ -52,18 +63,18 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section">
+    <section id="hero" class="hero section vh-100">
       <div class="hero-bg">
-        <img src="/assets/img/hero-bg-light.webp" alt="">
+        <img src="https://images.pexels.com/photos/326502/pexels-photo-326502.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="">
       </div>
       <div class="container text-center">
         <div class="d-flex flex-column justify-content-center align-items-center">
-          <h1 data-aos="fade-up">welcome to <span>Wonbal</span></h1>
-          <p data-aos="fade-up" data-aos-delay="100">provide you with modern software development solutions<br></p>
+          <h1 data-aos="fade-up" class="text-white">welcome to <span>Wonbal</span></h1>
+          <p data-aos="fade-up" data-aos-delay="100" class="text-white">provide you with modern software development solutions<br></p>
           <div class="d-flex mb-5" data-aos="fade-up" data-aos-delay="200">
             <a href="/en/#contact" class="btn-get-started">Get solutions</a>
           </div>
-          <img src="/assets/img/hero-services-img-2.svg" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
+          <!-- <img src="/assets/img/hero-services-img-2.svg" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300"> -->
         </div>
       </div>
 

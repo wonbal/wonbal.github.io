@@ -28,6 +28,17 @@
 
   <!-- Main CSS File -->
   <link href="/assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .hero .hero-bg::before {
+      background-color: rgba(0,0,0,.7);
+    }
+
+    .index-page .header {
+      background-color: white;
+    }
+  </style>
+
 </head>
 
 <body class="index-page">
@@ -50,27 +61,26 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="/en/"><i class="bi bi-globe2"></i> English</a>
-
+      <a class="btn-getstarted" href="/en/"><i class="bi bi-globe2"></i> EN-US</a>
+      
     </div>
   </header>
 
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section">
+    <section id="hero" class="hero section vh-100">
       <div class="hero-bg">
-        <img src="/assets/img/hero-bg-light.webp" alt="">
+        <img src="https://images.pexels.com/photos/326502/pexels-photo-326502.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="">
       </div>
       <div class="container text-center">
         <div class="d-flex flex-column justify-content-center align-items-center">
-          <h1 data-aos="fade-up">让想法创造价值</h1>
-          <p data-aos="fade-up" data-aos-delay="100">为您提供现代化软件的开发解决方案<br></p>
+          <h1 data-aos="fade-up" class="text-white">让想法创造价值</h1>
+          <p data-aos="fade-up" data-aos-delay="100" class="text-white">为您提供现代化软件的开发解决方案<br></p>
           <div class="d-flex mb-5" data-aos="fade-up" data-aos-delay="200">
-            <a href="/#contact" class="btn-get-started">立即咨询</a>
+            <a href="/#contact" class="btn-get-started">立即获取</a>
           </div>
-          <img src="/assets/img/hero-services-img-2.svg" class="img-fluid hero-img" alt="" data-aos="zoom-out"
-            data-aos-delay="300">
+          <!-- <img src="/assets/img/hero-services-img-2.svg" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300"> -->
         </div>
       </div>
 
